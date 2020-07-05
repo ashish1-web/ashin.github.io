@@ -1,0 +1,60 @@
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-image:linear-gradient(to right , #00F260,#0575E6);
+  position: fixed;
+  top: 0;
+  right:0;
+  width: 100%;
+  z-index: 10;
+  
+  
+ 
+  &__logo
+  {
+     
+      color: white;
+      margin-left: 15rem;
+      font-size: 3rem;
+      text-decoration: none;
+      margin-top: 1rem;font-weight: bolder;
+      margin-right: auto;
+      letter-spacing: .3rem;
+     
+
+  }
+ 
+
+  &__list
+  {
+      list-style: none;
+      margin-right: 2rem;
+      
+
+  }
+
+  &__item
+  {
+    display: inline-block;
+    margin:1rem;
+    padding: 1rem;
+ 
+  }
+
+  &__link
+  {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+
+  }
+
+  &__link:hover{
+    color:black;
+  }
+}

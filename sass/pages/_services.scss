@@ -1,0 +1,61 @@
+.services
+{
+    height:100vh;
+   background-image:linear-gradient(rgba(0,0,0,.4)),url(../../img/services_banner.jpg);
+    background-size:cover;
+
+
+}
+
+
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 2.5rem 0;
+    font-size: 2rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 5rem 5rem 10rem rgba(255, 255, 255, 1);
+    position:absolute;
+    top:20%;
+    right:23%;
+    transition: transform(-50% , -50%);
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: white;
+ 
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+   padding:4rem 6rem;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  .data
+  {
+      color:white;
+      font-weight: 800;
+      font-size: 2.5rem;
+      letter-spacing: .1rem;
+  }

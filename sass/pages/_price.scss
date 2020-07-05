@@ -1,0 +1,22 @@
+.price__banner
+{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,.4)),url(../../img/hero.jpg);
+    background-size: cover;
+    
+}
+
+.content__box
+{
+    position: absolute;
+    top:50%;
+    left:20%;
+    &__heading
+    {
+        color:white;
+        font-size: 6rem;
+        font-weight: bolder;
+        letter-spacing: .1rem;
+        word-spacing: .2rem;
+    }
+}
