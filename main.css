@@ -179,6 +179,9 @@ label {
 
 .services {
   padding: 8rem 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(img/services_banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(img/services_banner.jpg);
+  background-size: cover;
 }
 
 .services__heading {
@@ -377,18 +380,18 @@ label {
 
 .About {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../../img/hero.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(img/hero.jpg);
   background-size: cover;
 }
 
-.content__box {
+.About__content__box {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 30%;
 }
 
-.content__box__heading {
+.About__content__box__heading {
   color: white;
   font-size: 6rem;
   font-weight: bolder;
@@ -398,8 +401,8 @@ label {
 
 .price__banner {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../../img/hero.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(img/hero.jpg);
   background-size: cover;
 }
 
@@ -417,10 +420,10 @@ label {
   word-spacing: .2rem;
 }
 
-.services {
+.services1 {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../../img/services_banner.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../../img/services_banner.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(img/services_banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(img/services_banner.jpg);
   background-size: cover;
 }
 
